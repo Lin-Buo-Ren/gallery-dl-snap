@@ -7,7 +7,12 @@ set \
 	-o nounset \
 	-o pipefail
 
-#export IMPORTANT_ENVIRONMENT_VARIABLE=value
+if ! test -v SNAP_ARCH_TRIPLET; then
+	printf 'Error: SNAP_ARCH_TRIPLET not set, this launcher requires workaround-snap-arch-triplet-launch launcher to work.\n' >&2
+	exit 1
+fi
+
+export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}":"$SNAP"/usr/lib/"${SNAP_ARCH_TRIPLET}"/pulseaudio
 
 # Finally run the next part of the command chain
 exec "${@}"

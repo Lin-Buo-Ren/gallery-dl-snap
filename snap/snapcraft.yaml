@@ -78,11 +78,29 @@ parts:
     source-depth: 50
     plugin: python
 
+  ffmpeg:
+    plugin: nil
+    stage-packages:
+    - ffmpeg
+    - libavcodec57
+    - libavdevice57
+    - libavfilter6
+    - libavformat57
+    - libavresample3
+    - libavutil55
+    - libpostproc54
+    - libpulse0
+    - libslang2
+    - libswresample2
+    - libswscale4
+
 apps:
   gallery-dl:
-    command: >
-      bin/gallery-dl-launch
-      "${SNAP}"/bin/gallery-dl
+    adapter: full
+    command-chain:
+    - bin/workaround-snap-arch-triplet-launch
+    - bin/gallery-dl-launch
+    command: bin/gallery-dl
     environment:
       LANG: C.UTF-8
       LC_ALL: C.UTF-8

@@ -7,9 +7,7 @@
 
 **This is the unofficial snap for gallery-dl**, *"A command-line program to download image-galleries and -collections from several image hosting sites"*. It works on Ubuntu, Fedora, Debian, and other major Linux distributions.
 
-<!-- Uncomment and modify this when you are provided a build status badge
 [![Build Status Badge of the `gallery-dl` Snap](https://build.snapcraft.io/badge/Lin-Buo-Ren/gallery-dl-snap.svg "Build Status of the `gallery-dl` snap")](https://build.snapcraft.io/user/Lin-Buo-Ren/gallery-dl-snap)
--->
 
 ![Screenshot of the Snapped Application](local/screenshots/download-pixiv.png "Screenshot of the Snapped Application")
 

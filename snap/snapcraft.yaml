@@ -75,7 +75,7 @@ parts:
   gallery-dl:
     source: /home/ubuntu/gallery-dl/.git
     #source: https://github.com/mikf/gallery-dl.git
-    source-depth: 1
+    source-depth: 50
     plugin: python
 
 apps:

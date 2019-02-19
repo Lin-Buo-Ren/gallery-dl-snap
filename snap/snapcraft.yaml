@@ -36,15 +36,6 @@ plugs:
   network:
 
 parts:
-  # Utility programs to help with package building
-  #build-utilities:
-    #source: snap/local/build-utilities
-    #plugin: dump
-    #organize:
-      #'*': assets/build-utilities/
-    #prime:
-    #- -*
-
   # Launcher programs to fix problems at runtime
   launchers:
     source: snap/local/launchers
@@ -53,24 +44,6 @@ parts:
       '*': bin/
     stage:
     - -bin/README.*
-
-  # Program patches to solve issues that can't be solved by tweaking in runtime
-  #patches:
-    #source: snap/local/patches
-    #plugin: dump
-    #organize:
-      #'*': assets/patches/
-    #prime:
-    #- -*
-
-  # Helper programs that can be called at snap runtime
-  #helpers:
-    #source: snap/local/helpers
-    #plugin: dump
-    #organize:
-      #'*': bin/
-    #stage:
-    #- -bin/README.*
 
   gallery-dl:
     source: /home/ubuntu/gallery-dl/.git

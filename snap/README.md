@@ -39,13 +39,14 @@ Published for <img src="http://anything.codes/slack-emoji-for-techies/emoji/tux.
 [![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/gallery-dl)
 -->
 
-<!-- Uncomment when you have test results
 ## What is Working
-* [A list of functionallities that are verified working]
+* Download ImageBam gallery
+* Download Pixiv gallery
+* Download Pixiv clip
+* Convert Pixiv Ugoira to WebM
 
 ## What is NOT Working...yet 
 Check out the [issue tracker](https://github.com/Lin-Buo-Ren/gallery-dl-snap/issues) for known issues.
--->
 
 ## Support
 * Report issues regarding using this snap to the issue tracker:  

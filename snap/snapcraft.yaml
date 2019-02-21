@@ -16,6 +16,7 @@
 
 name: gallery-dl
 title: gallery-dl (UNOFFICIAL)
+license: GPL-2.0
 base: core18
 summary: Download image-galleries and -collections from several image hosting sites
 description: |

@@ -15,6 +15,7 @@
 # https://forum.snapcraft.io/c/snapcraft
 
 name: gallery-dl
+title: gallery-dl (UNOFFICIAL)
 base: core18
 summary: Download image-galleries and -collections from several image hosting sites
 description: |

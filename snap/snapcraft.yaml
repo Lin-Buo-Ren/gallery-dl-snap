@@ -22,6 +22,8 @@ summary: Download image-galleries and -collections from several image hosting si
 description: |
   `gallery-dl` is a command-line program to download image-galleries and -collections from several image hosting sites (see [Supported Sites](https://github.com/mikf/gallery-dl/blob/master/docs/supportedsites.rst)). It is a cross-platform tool with many configuration options and powerful filenaming capabilities.
 
+  This is NOT an official distribution of gallery-dl, refer the [issue tracker](https://github.com/Lin-Buo-Ren/gallery-dl-snap/issues) for support.
+
 icon: snap/gui/placeholder-brand.svg
 version: determined-by-version-script
 version-script: ./snap/local/build-utilities/set-snap-version.bash

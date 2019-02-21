@@ -68,7 +68,11 @@ parts:
 
 apps:
   gallery-dl:
-    command: bin/workaround-snap-arch-triplet-launch gallery-dl-launch gallery-dl
+    adapter: full
+    command-chain:
+    - bin/workaround-snap-arch-triplet-launch
+    - bin/gallery-dl-launch
+    command: bin/gallery-dl
     environment:
       LANG: C.UTF-8
       LC_ALL: C.UTF-8

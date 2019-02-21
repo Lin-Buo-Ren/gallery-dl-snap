@@ -46,8 +46,7 @@ parts:
     - -bin/README.*
 
   gallery-dl:
-    source: /home/ubuntu/gallery-dl/.git
-    #source: https://github.com/mikf/gallery-dl.git
+    source: https://github.com/mikf/gallery-dl.git
     source-depth: 50
     plugin: python
 

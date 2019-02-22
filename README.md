@@ -27,8 +27,8 @@ Snapcrafters ([join us](https://forum.snapcraft.io/t/join-snapcrafters/1325)) ar
 - [x] Publish the snap in the Snap Store stable channel
 - [x] Update the install instructions in `snap/README.md`
 - [x] Post an announcement in the [Snapcraft Forum](https://forum.snapcraft.io) - [template](https://github.com/Lin-Buo-Ren/snapcrafters-template-plus/wiki/Release-Announcement-Template) - [link](https://forum.snapcraft.io/t/the-unofficial-snap-packaging-for-gallery-dl/10098)
-- [ ] Submit a pull request or patch upstream that adds the `snapcraft.yaml` and any required assets/launchers - [example](https://github.com/htacg/tidy-html5/pull/749) - [link]()
-- [ ] Submit a pull request or patch upstream that adds snap install documentation - [example](https://github.com/htacg/html-tidy.org/pull/11) - [link]()
+- [x] Submit a pull request or patch upstream that adds the `snapcraft.yaml` and any required assets/launchers - [example](https://github.com/htacg/tidy-html5/pull/749) - [link](https://github.com/mikf/gallery-dl/pull/170)
+- [x] Submit a pull request or patch upstream that adds snap install documentation - [example](https://github.com/htacg/html-tidy.org/pull/11) - [link](https://github.com/mikf/gallery-dl/pull/171)
 
 If the upstream accepts the PRs **AND** willing to maintain the package on the Snap Store:
 - [ ] Request upstream create a Snap Store developer account

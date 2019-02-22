@@ -72,7 +72,7 @@ parts:
     plugin: python
 
     # For formal release
-    source-tag: v1.7.0
+    #source-tag: v1.7.0
 
   ffmpeg:
     plugin: nil

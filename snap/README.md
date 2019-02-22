@@ -39,6 +39,9 @@ Published for <img src="http://anything.codes/slack-emoji-for-techies/emoji/tux.
 * Download Pixiv clip
 * Convert Pixiv Ugoira to WebM
 
+### Test Cases
+* [【ドット絵】「うーん...やみー!!」/「鬼雷 昇炎」的動圖 [pixiv]](https://www.pixiv.net/member_illust.php?mode=medium&illust_id=73280348)
+
 ## What is NOT Working...yet 
 Check out the [issue tracker](https://github.com/Lin-Buo-Ren/gallery-dl-snap/issues) for known issues.
 

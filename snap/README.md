@@ -18,8 +18,7 @@ Published for <img src="http://anything.codes/slack-emoji-for-techies/emoji/tux.
 
 ### In a Terminal
     # Install the snap #
-    sudo snap install --channel=beta gallery-dl
-    #sudo snap install gallery-dl
+    sudo snap install gallery-dl
     
     # Connect the snap to optional security confinement interfaces #
     ## For downloading the files to `/media` and `/mnt` ##

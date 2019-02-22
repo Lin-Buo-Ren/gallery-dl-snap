@@ -40,10 +40,12 @@ Published for <img src="http://anything.codes/slack-emoji-for-techies/emoji/tux.
 * Convert Pixiv Ugoira to WebM
 * OAuth authentication with Flickr
 * Download private Flickr photo
+* Download Tumblr public album
 
 ### Test Cases
 * [【バンドリ】「💙バレンタイン💖」/「たや」的插畫 [pixiv]](https://www.pixiv.net/member_illust.php?mode=medium&illust_id=73280679) (Pixiv gallery)
 * [【ドット絵】「うーん...やみー!!」/「鬼雷 昇炎」的動圖 [pixiv]](https://www.pixiv.net/member_illust.php?mode=medium&illust_id=73280348) (Pixiv clip(Ugoira format))
+* [Tumblr 台灣團隊 — i-explore-taiwan: 基隆::正豐鵝肉 看起來非常多汁。🤤🤤🤤](https://taiwanteam.tumblr.com/post/182890602601/i-explore-taiwan-%E5%9F%BA%E9%9A%86%E6%AD%A3%E8%B1%90%E9%B5%9D%E8%82%89-%E7%9C%8B%E8%B5%B7%E4%BE%86%E9%9D%9E%E5%B8%B8%E5%A4%9A%E6%B1%81) (Tumblr gallery)
 
 ## What is NOT Working...yet 
 Check out the [issue tracker](https://github.com/Lin-Buo-Ren/gallery-dl-snap/issues) for known issues.

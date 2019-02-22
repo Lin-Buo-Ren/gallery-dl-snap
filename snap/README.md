@@ -38,6 +38,8 @@ Published for <img src="http://anything.codes/slack-emoji-for-techies/emoji/tux.
 * Download Pixiv gallery
 * Download Pixiv clip
 * Convert Pixiv Ugoira to WebM
+* OAuth authentication with Flickr
+* Download private Flickr photo
 
 ### Test Cases
 * [【バンドリ】「💙バレンタイン💖」/「たや」的插畫 [pixiv]](https://www.pixiv.net/member_illust.php?mode=medium&illust_id=73280679) (Pixiv gallery)

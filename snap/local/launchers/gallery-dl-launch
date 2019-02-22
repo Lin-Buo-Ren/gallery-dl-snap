@@ -15,5 +15,12 @@ fi
 # Satisfy FFmpeg's usr/lib/ARCH/pulseaudio/libpulsecommon-11.1.so dependency
 export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}":"$SNAP"/usr/lib/"${SNAP_ARCH_TRIPLET}"/pulseaudio
 
+# Use user's real home directory for canonical configuration path access
+# FIXME: Waiting for Snap Store assertion
+# HOME="$(
+# 	getent passwd "${USER}" \
+# 		| cut --delimiter=: --fields=6
+# )"
+
 # Finally run the next part of the command chain
 exec "${@}"

@@ -39,6 +39,17 @@ plugs:
   # Network access
   network:
 
+  # Configuration access
+  # https://github.com/mikf/gallery-dl#configuration
+  # FIXME: Waiting for Snap Store assertion
+  #personal-files:
+    #read:
+    #- $HOME/.config/gallery-dl
+    #- $HOME/.gallery-dl.conf
+  #system-files:
+    #read:
+    #- /etc/gallery-dl.conf
+
 parts:
   # Launcher programs to fix problems at runtime
   launchers:

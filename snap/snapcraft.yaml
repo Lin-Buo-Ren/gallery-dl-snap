@@ -28,7 +28,7 @@ icon: snap/gui/placeholder-brand.svg
 version: determined-by-version-script
 version-script: ./snap/local/build-utilities/set-snap-version.bash
 
-confinement: devmode
+confinement: strict
 grade: stable
 
 plugs:

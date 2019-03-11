@@ -68,7 +68,7 @@ parts:
 
   gallery-dl:
     source: https://github.com/mikf/gallery-dl.git
-    source-depth: 50
+    source-depth: 100
     plugin: python
 
     # For formal release

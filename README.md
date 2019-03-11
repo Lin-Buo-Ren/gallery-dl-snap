@@ -31,8 +31,8 @@ Snapcrafters ([join us](https://forum.snapcraft.io/t/join-snapcrafters/1325)) ar
 - [x] Submit a pull request or patch upstream that adds snap install documentation - [example](https://github.com/htacg/html-tidy.org/pull/11) - [link](https://github.com/mikf/gallery-dl/pull/171)
 
 If the upstream accepts the PRs **AND** willing to maintain the package on the Snap Store:
-- [ ] Request upstream create a Snap Store developer account
-- [ ] Create a topic [under the `store` category in the Snapcrafters Forum](https://forum.snapcraft.io/c/store) to request the snap be transferred to upstream - [template](https://github.com/Lin-Buo-Ren/snapcrafters-template-plus/wiki/Ownership-Transfer-Template#transfer-to-upstream) - [link]()
+- [x] Request upstream create a Snap Store developer account
+- [x] Create a topic [under the `store` category in the Snapcrafters Forum](https://forum.snapcraft.io/c/store) to request the snap be transferred to upstream - [template](https://github.com/Lin-Buo-Ren/snapcrafters-template-plus/wiki/Ownership-Transfer-Template#transfer-to-upstream) - [link](https://forum.snapcraft.io/t/please-transfer-gallery-dl-to-mikf123/10208)
 
 If the upstream rejects the offer:
 

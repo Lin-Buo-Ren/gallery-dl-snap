@@ -3,7 +3,14 @@ This is the unofficial snap packaging for gallery-dl, [Snaps are universal Linux
 
 Refer [snap/README.md](snap/README.md) for user-oriented information.
 
+## Deprecation Notice
+
+As the packaging is now [contributed to the upstream](https://github.com/mikf/gallery-dl/tree/master/snap), all future contributions to the packaging should be forwarded to [the upstream's project](https://github.com/mikf/gallery-dl) instead of this one.  This project will still remain accessible as a reference, but will not be in active maintenance anymore.
+
+For any requests that is *specific in particular with this project* feel free to visit the [issue tracker](https://github.com/Lin-Buo-Ren/gallery-dl-snap).
+
 ## Remaining Tasks
+
 Snapcrafters ([join us](https://forum.snapcraft.io/t/join-snapcrafters/1325)) are working to land snap install documentation and the [snapcraft.yaml](https://github.com/Lin-Buo-Ren/snapcrafters-template-plus/blob/master/snap/snapcraft.yaml) upstream so gallery-dl can authoritatively publish future releases.
 
 - [x] *Import* the [Snapcrafters Template Plus](https://github.com/Lin-Buo-Ren/snapcrafters-template-plus) repository to your own GitHub account and name it as _snap_name_-snap (or any valid name you prefer) using GitHub's [Import repository](https://github.com/new/import) feature

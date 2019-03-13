@@ -1,5 +1,5 @@
 # Unofficial Snap Packaging for gallery-dl
-This is the unofficial snap packaging for gallery-dl, [Snaps are universal Linux packages](https://snapcraft.io).
+This is the unofficial snap packaging for [gallery-dl](https://github.com/mikf/gallery-dl), [Snaps are universal Linux packages](https://snapcraft.io).
 
 Refer [snap/README.md](snap/README.md) for user-oriented information.
 

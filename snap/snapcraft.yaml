@@ -25,8 +25,7 @@ description: |
   **NOTE:** This is NOT an official distribution of gallery-dl, refer the [issue tracker](https://github.com/Lin-Buo-Ren/gallery-dl-snap/issues) for support.
 
 icon: snap/gui/placeholder-brand.svg
-version: determined-by-version-script
-version-script: ./snap/local/build-utilities/set-snap-version.bash
+adopt-info: gallery-dl
 
 confinement: strict
 grade: stable
@@ -66,9 +65,25 @@ parts:
     stage:
     - -bin/README.*
 
+  scriptlets:
+    source: snap/local/scriptlets
+    plugin: dump
+    organize:
+      '*': scriptlets/
+    prime:
+    - -*
+
   gallery-dl:
+    after:
+    - scriptlets
+
     source: https://github.com/mikf/gallery-dl.git
     source-depth: 100
+    override-pull: |
+      set -o nounset
+
+      "${SNAPCRAFT_STAGE}"/scriptlets/gallery-dl-pull
+
     plugin: python
 
     # For formal release
